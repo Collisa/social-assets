@@ -9,33 +9,38 @@ exec((ROOT / "profile_kit.py").read_text().split("# 1. Highlight covers")[0])  #
 from playwright.async_api import async_playwright
 
 STORY_CSS = """
-.story { padding: 260px 96px 360px; }
+.story { padding: 260px 96px 660px; }
+.slot { position:absolute; left:96px; right:96px; top:1330px; text-align:center; font-family:Fira; font-weight:500; font-size:30px; color:var(--teal); }
+.slot i { display:block; font-style:normal; font-size:44px; margin-top:4px; }
 .sticker { margin-top: 56px; height: 120px; border: 4px dashed var(--line-strong, #d0d0d0); border-radius: 24px;
   display:flex; align-items:center; justify-content:center; font-family:Fira; font-size:26px; color:#8a8a8a; }
-.cases { list-style:none; margin-top:48px; display:flex; flex-direction:column; gap:22px; }
-.cases li { background:#fff; border:2px solid var(--line); border-radius:24px; padding:28px 34px; }
-.cases li strong { display:block; font-size:38px; letter-spacing:-0.02em; }
-.cases li span { font-size:28px; color:var(--body); }
+.cases { list-style:none; margin-top:36px; display:flex; flex-direction:column; gap:14px; }
+.cases li { background:#fff; border:2px solid var(--line); border-radius:22px; padding:20px 30px; }
+.cases li strong { display:block; font-size:34px; letter-spacing:-0.02em; }
+.cases li span { font-size:25px; color:var(--body); }
 .keys { display:flex; gap:18px; margin-top:44px; }
 .keys kbd { font-family:Fira; font-weight:500; font-size:34px; background:#fff; border:3px solid var(--ink); border-bottom-width:8px;
   border-radius:16px; padding:14px 26px; }
 """
 
 
-def story(inner):
-    return kit_page(1080, 1920, f"<div class='page story'>{inner}</div>").replace("</style>", STORY_CSS + "</style>")
+SLOT = "<div class='slot'>meer op collisa.be<i>↓</i></div>"
 
 
-STICKER = "<div style='height:160px'></div>"  # empty room for the link sticker
+def story(inner, slot=True):
+    return kit_page(1080, 1920, f"<div class='page story'>{inner}{SLOT if slot else ''}</div>").replace("</style>", STORY_CSS + "</style>")
+
+
+STICKER = ""
 
 stories = {
     "story-over-mij": story(f"""{logo()}<div class='main'>
-<img class='photo' style='width:420px;height:520px' src='file://{PHOTO}' alt=''>
+<img class='photo' style='width:340px;height:420px' src='file://{PHOTO}' alt=''>
 <div class='kicker' style='margin-top:56px;margin-bottom:16px'>&gt; over mij</div>
 <h1 style='font-size:112px'>Hoi, ik ben <mark>Lisa.</mark></h1>
 <p class='sub' style='margin-top:32px'>Freelance webdeveloper in Geel. Ik bouw websites, webapps en koppelingen, en leg alles uit in gewone taal.</p></div>"""),
     "story-cases": story(f"""{logo()}<div class='main'><div class='kicker'>&gt; cases</div>
-<h1 style='font-size:110px'>Wat ik<br><mark>bouwde.</mark></h1>
+<h1 style='font-size:96px'>Wat ik <mark>bouwde.</mark></h1>
 <ul class='cases'>
 <li><strong>Gymna Elexeo Compass</strong><span>begeleide keuzetool in 7 talen</span></li>
 <li><strong>kia-ora.be</strong><span>toegankelijke site, getoetst aan WCAG 2.1 AA</span></li>
@@ -55,7 +60,7 @@ stories = {
     "story-contact": story(f"""{logo()}<div class='main'><div class='kicker'>&gt; contact</div>
 <h1 style='font-size:110px'>Een website<br>of webapp<br><mark>in gedachten?</mark></h1>
 <p class='sub' style='margin-top:40px'>Stuur me een bericht. Je krijgt antwoord binnen 1 werkdag, in gewone taal.</p>
-{STICKER}</div><div class='foot'><p>Lisa Collignon · Geel</p><span class='pill'>collisa.be</span></div>"""),
+</div>"""),
 }
 
 
@@ -69,7 +74,7 @@ async def main():
             await pg.goto(f.as_uri())
             await pg.evaluate("document.fonts.ready")
             await pg.wait_for_timeout(200)
-            await pg.screenshot(path=str(OUT / f"{name}.png"))
+            await pg.screenshot(path=str(OUT / f"{name}-v2.png"))
         await browser.close()
 
 
