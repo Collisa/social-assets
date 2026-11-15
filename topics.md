@@ -19,6 +19,10 @@ Regels voor de taak:
 | Case Kia Ora: toegankelijkheid (WCAG 2.1 AA, 0 vs 8) | LinkedIn ingepland, Instagram concept (week 46) |
 | Collisa Care: wat na de oplevering? | LinkedIn ingepland, Instagram concept (week 46) |
 | TikTok: website zonder muis (kia-ora.be) | idee, op te nemen |
+| C6 Gymna Elexeo Compass | LinkedIn + Instagram concept (week 47) |
+| W6 Duidelijke afspraken (30, 10 en 3) | LinkedIn + Instagram-carrousel concept (week 47) |
+| A1 AI in mijn eigen workflow | LinkedIn + Instagram concept (week 47) |
+| TikTok: 30, 10 en 3 (duidelijke afspraken) | idee, op te nemen (week 47) |
 
 ## Open
 
@@ -30,7 +34,7 @@ Regels voor de taak:
 | C3 | Collibri Transport-website | Opnieuw opgebouwd vanaf nul op basis van het bestaande ontwerp, nadat het vorige bureau moeilijk bereikbaar en duur bleek. Collisa host en ondersteunt. | open |
 | C4 | K-TEG-website (Hasselt) | Website en CMS gebouwd, ontwerp aangeleverd door K-TEG. De configurator en webshop zijn NIET van Lisa: niet claimen. Collisa host en ondersteunt. | open |
 | C5 | Kia Ora: MyTourist-integratie | Pas gebruiken zodra de MyTourist-integratie in `main` zit van de repo `odin-europe/kia-ora`. De taak kijkt dat elke week na (leesrechten volstaan; zoek in `main` naar de MyTourist BookingSystem-adapter). Inhoud: bezette dagen worden live uit MyTourist gelezen, en bij het verzenden van een aanvraag wordt de beschikbaarheid live gecontroleerd. Details uit de repo halen, niets verzinnen. | wacht op main |
-| C6 | Gymna Elexeo Compass | Webapp voor Gymna (gebouwd mrt-dec 2025, Laravel 12 + Filament 3 + Livewire). NOOIT 'configurator' noemen: Gymna wil dat niet. Noem het een 'compass' of 'begeleide keuzetool'. Bezoekers kiezen een behandelgroep en dan een indicatiegroep, en stellen zo stap voor stap een opstelling samen. Ze kunnen een PDF met hun keuze downloaden of een offerte aanvragen; de aanvraag gaat per mail naar een of meer dealers of naar Gymna. Beschikbaar in 7 talen (NL, EN, FR, DE, ES, IT, PT). Gymna beheert producten, teksten, vertalingen, dealers en leads zelf in een beheerpaneel. | open |
+| C6 | Gymna Elexeo Compass | Webapp voor Gymna (gebouwd mrt-dec 2025, Laravel 12 + Filament 3 + Livewire). NOOIT 'configurator' noemen: Gymna wil dat niet. Noem het een 'compass' of 'begeleide keuzetool'. Bezoekers kiezen een behandelgroep en dan een indicatiegroep, en stellen zo stap voor stap een opstelling samen. Ze kunnen een PDF met hun keuze downloaden of een offerte aanvragen; de aanvraag gaat per mail naar een of meer dealers of naar Gymna. Beschikbaar in 7 talen (NL, EN, FR, DE, ES, IT, PT). Gymna beheert producten, teksten, vertalingen, dealers en leads zelf in een beheerpaneel. | concept (week 47) |
 | C7 | Miefiesta (Shopify) | Shopify-project. Details eerst bij Lisa navragen. | wacht op info |
 
 ### Werkwijze en tips
@@ -41,7 +45,7 @@ Regels voor de taak:
 | W3 | Sentry in elk project | Elk project heeft automatische foutopvolging, ook in elk Care-pakket. Uitleggen wat dat voor een klant betekent. | open |
 | W4 | Overname van een bestaande site | Overnamecheck vanaf €250 (webapps en koppelingen vanaf €500), verrekend als de klant binnen 30 dagen instapt in Care. | open |
 | W5 | Wat is een API-koppeling? | Uitleg in gewone taal, met BatSync als voorbeeld (systemen die automatisch met elkaar praten). | open |
-| W6 | Duidelijke afspraken | Offertes 30 dagen geldig, 3 maanden garantie na oplevering, 10 werkdagen om een oplevering na te kijken. | open |
+| W6 | Duidelijke afspraken | Offertes 30 dagen geldig, 3 maanden garantie na oplevering, 10 werkdagen om een oplevering na te kijken. | concept (week 47) |
 
 ### Toegankelijkheid en achter de schermen
 | # | Onderwerp | Wat vaststaat | Status |
@@ -58,7 +62,7 @@ kanttekeningen (kosten, privacy, waar AI fouten maakt).
 
 | # | Onderwerp | Wat vaststaat / invalshoek | Status |
 |---|---|---|---|
-| A1 | Hoe ik AI inzet in mijn eigen workflow | Lisa bouwde een eigen AI-skill die Nederlandstalige testdocumentatie voor de overdracht genereert, en werkt met een vaste AI-pipeline voor plannen, bouwen en testen. Ze volgt AI Hero (Matt Pocock), cohort 'Software Factories for Real Engineers' (nov 2026). Voordeel voor de klant: sneller en consequenter, zonder de controle uit handen te geven. | open |
+| A1 | Hoe ik AI inzet in mijn eigen workflow | Lisa bouwde een eigen AI-skill die Nederlandstalige testdocumentatie voor de overdracht genereert, en werkt met een vaste AI-pipeline voor plannen, bouwen en testen. Ze volgt AI Hero (Matt Pocock), cohort 'Software Factories for Real Engineers' (nov 2026). Voordeel voor de klant: sneller en consequenter, zonder de controle uit handen te geven. | concept (week 47) |
 | A2 | AI + je bestaande systemen | Waar AI echt helpt: als het gekoppeld is aan wat je al gebruikt (webshop, agenda, boekhouding). Koppelingen bouwen is Lisa's sterkte (zie BatSync). Concept, geen klantcase. | open |
 | A3 | Repetitieve mails en aanvragen laten voorsorteren door AI | Concept voor kmo's: aanvragen samenvatten, labelen of een conceptantwoord klaarzetten, de mens beslist. Kanttekening: privacy en controle. | open |
 | A4 | Een website laten maken door AI: waar je op moet letten | Invalshoek uit de Kia Ora-audit: een automatische check vond 0 problemen, handmatig testen vond er 8. Gegenereerde sites testen op toegankelijkheid, beveiliging en onderhoud. Geen algemene cijfers verzinnen. | open |
