@@ -29,8 +29,8 @@ Regels voor de taak:
 | C2 | MediFootz TextMeet | Interne planningskalender met klantgegevens, gebouwd met Filament. Stuurt automatische herinneringen per mail en sms. Sinds de herinneringen zijn vergeten afspraken verdwenen en kwamen klanten veel vaker opdagen. | open |
 | C3 | Collibri Transport-website | Opnieuw opgebouwd vanaf nul op basis van het bestaande ontwerp, nadat het vorige bureau moeilijk bereikbaar en duur bleek. Collisa host en ondersteunt. | open |
 | C4 | K-TEG-website (Hasselt) | Website en CMS gebouwd, ontwerp aangeleverd door K-TEG. De configurator en webshop zijn NIET van Lisa: niet claimen. Collisa host en ondersteunt. | open |
-| C5 | Kia Ora: MyTourist-integratie | Pas posten als de integratie live is. Lisa bevestigt dat eerst. | wacht |
-| C6 | Gymna Elexeo Compass | Functioneel een configurator, maar Gymna wil het zo niet noemen. Details eerst bij Lisa navragen. | wacht op info |
+| C5 | Kia Ora: MyTourist-integratie | Pas gebruiken zodra de MyTourist-integratie in `main` zit van de repo `odin-europe/kia-ora`. De taak kijkt dat elke week na (leesrechten volstaan; zoek in `main` naar de MyTourist BookingSystem-adapter). Inhoud: bezette dagen worden live uit MyTourist gelezen, en bij het verzenden van een aanvraag wordt de beschikbaarheid live gecontroleerd. Details uit de repo halen, niets verzinnen. | wacht op main |
+| C6 | Gymna Elexeo Compass | Webapp voor Gymna (gebouwd mrt-dec 2025, Laravel 12 + Filament 3 + Livewire). NOOIT 'configurator' noemen: Gymna wil dat niet. Noem het een 'compass' of 'begeleide keuzetool'. Bezoekers kiezen een behandelgroep en dan een indicatiegroep, en stellen zo stap voor stap een opstelling samen. Ze kunnen een PDF met hun keuze downloaden of een offerte aanvragen; de aanvraag gaat per mail naar een of meer dealers of naar Gymna. Beschikbaar in 7 talen (NL, EN, FR, DE, ES, IT, PT). Gymna beheert producten, teksten, vertalingen, dealers en leads zelf in een beheerpaneel. | open |
 | C7 | Miefiesta (Shopify) | Shopify-project. Details eerst bij Lisa navragen. | wacht op info |
 
 ### Werkwijze en tips
@@ -49,5 +49,18 @@ Regels voor de taak:
 | T1 | Toegankelijkheid in 30 seconden: focus zichtbaar houden | Uit het Kia Ora-rapport: duidelijke focusring bij toetsenbordgebruik. | open |
 | T2 | Contrast: waarom 3:1 en 4,5:1? | Uit het Kia Ora-rapport: veldranden van 1,58:1 naar 3,32:1. | open |
 | T3 | Ik volg Practical Accessibility (Sara Soueidan) | Lisa volgt de cursus in november 2026. Wat ze leert, past ze toe in haar projecten. | open |
-| T4 | Hoe ik AI gebruik in mijn werk | Collisa-pitch: continu verbeteren, inclusief onderzoek naar AI. Lisa volgt AI Hero (Matt Pocock). Concrete voorbeelden eerst bij Lisa navragen. | wacht op info |
 | T5 | Van manusje van alles naar developer | Lisa leerde programmeren bij Collibri Transport en bouwde Collibri Tools in haar eigen tijd. Persoonlijk verhaal: eerst bij Lisa checken. | wacht op info |
+
+### AI voor kmo's
+Doelpubliek: kmo's en zelfstandigen, geen developers. Uitleggen wat AI concreet kan opleveren, in gewone taal.
+Nooit beweren dat Lisa een AI-project voor een klant opleverde, tenzij het hier staat. Concepten mogen, met eerlijke
+kanttekeningen (kosten, privacy, waar AI fouten maakt).
+
+| # | Onderwerp | Wat vaststaat / invalshoek | Status |
+|---|---|---|---|
+| A1 | Hoe ik AI inzet in mijn eigen workflow | Lisa bouwde een eigen AI-skill die Nederlandstalige testdocumentatie voor de overdracht genereert, en werkt met een vaste AI-pipeline voor plannen, bouwen en testen. Ze volgt AI Hero (Matt Pocock), cohort 'Software Factories for Real Engineers' (nov 2026). Voordeel voor de klant: sneller en consequenter, zonder de controle uit handen te geven. | open |
+| A2 | AI + je bestaande systemen | Waar AI echt helpt: als het gekoppeld is aan wat je al gebruikt (webshop, agenda, boekhouding). Koppelingen bouwen is Lisa's sterkte (zie BatSync). Concept, geen klantcase. | open |
+| A3 | Repetitieve mails en aanvragen laten voorsorteren door AI | Concept voor kmo's: aanvragen samenvatten, labelen of een conceptantwoord klaarzetten, de mens beslist. Kanttekening: privacy en controle. | open |
+| A4 | Een website laten maken door AI: waar je op moet letten | Invalshoek uit de Kia Ora-audit: een automatische check vond 0 problemen, handmatig testen vond er 8. Gegenereerde sites testen op toegankelijkheid, beveiliging en onderhoud. Geen algemene cijfers verzinnen. | open |
+| A5 | Wanneer een AI-chat op je site zinvol is (en wanneer niet) | Concept. Pas na C5 linken aan Kia Ora / MyTourist, en enkel met feiten uit die repo. | open |
+| A6 | Automatische herinneringen: kleine automatisering, groot effect | Brug naar C2 MediFootz TextMeet: geen AI, maar wel automatisering die vergeten afspraken liet verdwijnen. Toont dat de juiste automatisering belangrijker is dan het label 'AI'. | open |
