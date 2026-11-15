@@ -35,7 +35,7 @@ Regels voor de taak:
 | C4 | K-TEG-website (Hasselt) | Website en CMS gebouwd, ontwerp aangeleverd door K-TEG. De configurator en webshop zijn NIET van Lisa: niet claimen. Collisa host en ondersteunt. | open |
 | C5 | Kia Ora: MyTourist-integratie | Pas gebruiken zodra de MyTourist-integratie in `main` zit van de repo `odin-europe/kia-ora`. De taak kijkt dat elke week na (leesrechten volstaan; zoek in `main` naar de MyTourist BookingSystem-adapter). Inhoud: bezette dagen worden live uit MyTourist gelezen, en bij het verzenden van een aanvraag wordt de beschikbaarheid live gecontroleerd. Details uit de repo halen, niets verzinnen. | wacht op main |
 | C6 | Gymna Elexeo Compass | Webapp voor Gymna (gebouwd mrt-dec 2025, Laravel 12 + Filament 3 + Livewire). NOOIT 'configurator' noemen: Gymna wil dat niet. Noem het een 'compass' of 'begeleide keuzetool'. Bezoekers kiezen een behandelgroep en dan een indicatiegroep, en stellen zo stap voor stap een opstelling samen. Ze kunnen een PDF met hun keuze downloaden of een offerte aanvragen; de aanvraag gaat per mail naar een of meer dealers of naar Gymna. Beschikbaar in 7 talen (NL, EN, FR, DE, ES, IT, PT). Gymna beheert producten, teksten, vertalingen, dealers en leads zelf in een beheerpaneel. | concept (week 47) |
-| C7 | Miefiesta (Shopify) | Shopify-project. Details eerst bij Lisa navragen. | wacht op info |
+| C7 | Mie Fiesta (Shopify) | Shopify-project. Details eerst bij Lisa navragen. Zie ook K8. | wacht op info |
 
 ### Werkwijze en tips
 | # | Onderwerp | Wat vaststaat | Status |
@@ -54,6 +54,23 @@ Regels voor de taak:
 | T2 | Contrast: waarom 3:1 en 4,5:1? | Uit het Kia Ora-rapport: veldranden van 1,58:1 naar 3,32:1. | open |
 | T3 | Ik volg Practical Accessibility (Sara Soueidan) | Lisa volgt de cursus in november 2026. Wat ze leert, past ze toe in haar projecten. | open |
 | T5 | Van manusje van alles naar developer | Lisa leerde programmeren bij Collibri Transport en bouwde Collibri Tools in haar eigen tijd. Persoonlijk verhaal: eerst bij Lisa checken. | wacht op info |
+
+### Uit de SEO-contentkalender (16 nov 2026 – 7 feb 2027)
+Bron: Lisa's SEO-contentkalender (week 1 = 16 nov = week 47). Deze onderwerpen horen bij nieuwe pagina's op collisa.be.
+Regels: pas gebruiken als de pagina echt online staat. De taak kijkt dat na in `https://collisa.be/sitemap.xml` of Lisa meldt het.
+Dan de status op `open` zetten en in de post naar de pagina verwijzen ('link in bio' op Instagram). Alleen feiten die op de
+gepubliceerde pagina of hierboven staan. Geen prijzen, wetsartikels of klantresultaten verzinnen.
+
+| # | Onderwerp | Wat vaststaat / invalshoek | Status |
+|---|---|---|---|
+| K1 | Prijsgids "Wat kost een website of webapp?" | Gepland week 3-4 (30 nov - 7 dec), ook in het Engels. Lisa beslist eerst of er prijzen gepubliceerd worden. Alleen bedragen gebruiken die in de gids staan. | wacht op pagina |
+| K2 | Case Collibri: website overnemen van een webbureau | Casepagina gepland week 2 (23 nov). Hoort bij C3: die post kan naar de casepagina linken zodra ze live staat. | wacht op pagina |
+| K3 | Lokale pagina "Website laten maken in Geel" | Gepland week 5 (14 dec). Of Lisa klanten ter plaatse ontmoet en in welke gemeenten beslist ze nog: niets over beweren tot het op de pagina staat. | wacht op pagina |
+| K4 | Dienstpagina "Webapps op maat" | Gepland week 8 (4 jan). Voorbeelden: C6 Gymna, C2 MediFootz. | wacht op pagina |
+| K5 | Dienstpagina "API-koppelingen" | Gepland week 9 (11 jan). Past bij W5 en C1 BatSync. Lijst van gekoppelde systemen komt van Lisa. | wacht op pagina |
+| K6 | Dienstpagina "Websites" | Gepland week 10 (18 jan). Voorbeelden: K-TEG (C4, enkel website + CMS), Collibri (C3). | wacht op pagina |
+| K7 | EAA-gids voor kmo's (European Accessibility Act) | Gepland week 11 (25 jan). Pas posten als de gids live staat en Lisa de Belgische wetgeving heeft nagekeken. Geen juridische claims buiten de gids. | wacht op pagina |
+| K8 | Case Mie Fiesta | Casepagina misschien in week 6 (21 dec), alleen als Mie Fiesta akkoord gaat. Zelfde als C7. | wacht op info |
 
 ### AI voor kmo's
 Doelpubliek: kmo's en zelfstandigen, geen developers. Uitleggen wat AI concreet kan opleveren, in gewone taal.
