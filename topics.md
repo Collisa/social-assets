@@ -23,13 +23,17 @@ Regels voor de taak:
 | W6 Duidelijke afspraken (30, 10 en 3) | LinkedIn + Instagram-carrousel concept (week 47) |
 | A1 AI in mijn eigen workflow | LinkedIn + Instagram concept (week 47) |
 | TikTok: 30, 10 en 3 (duidelijke afspraken) | idee, op te nemen (week 47) |
+| C1 BatSync (Webbureau Batman) | LinkedIn + Instagram + story concept (week 48) |
+| W3 Sentry in elk project | LinkedIn + Instagram + story concept (week 48) |
+| A3 AI sorteert mails en aanvragen voor | LinkedIn + Instagram + story concept (week 48) |
+| TikTok: Je website geeft een fout. Wie merkt het? (W3) | idee, op te nemen (week 48) |
 
 ## Open
 
 ### Klantcases
 | # | Onderwerp | Wat vaststaat | Status |
 |---|---|---|---|
-| C1 | BatSync (Webbureau Batman) | WooCommerce-koppeling met CycleSoftware voor fietswinkels. Gebouwd voor Webbureau Batman (Aarschot), voor hun fietswinkelklanten. Overgedragen aan Batman voor verdere ontwikkeling in huis; Collisa host en ondersteunt. Batman gaf toestemming om het te tonen. | open |
+| C1 | BatSync (Webbureau Batman) | WooCommerce-koppeling met CycleSoftware voor fietswinkels. Gebouwd voor Webbureau Batman (Aarschot), voor hun fietswinkelklanten. Overgedragen aan Batman voor verdere ontwikkeling in huis; Collisa host en ondersteunt. Batman gaf toestemming om het te tonen. | concept (week 48) |
 | C2 | MediFootz TextMeet | Interne planningskalender met klantgegevens, gebouwd met Filament. Stuurt automatische herinneringen per mail en sms. Sinds de herinneringen zijn vergeten afspraken verdwenen en kwamen klanten veel vaker opdagen. | open |
 | C3 | Collibri Transport-website | Opnieuw opgebouwd vanaf nul op basis van het bestaande ontwerp, nadat het vorige bureau moeilijk bereikbaar en duur bleek. Collisa host en ondersteunt. | open |
 | C4 | K-TEG-website (Hasselt) | Website en CMS gebouwd, ontwerp aangeleverd door K-TEG. De configurator en webshop zijn NIET van Lisa: niet claimen. Collisa host en ondersteunt. | open |
@@ -42,7 +46,7 @@ Regels voor de taak:
 |---|---|---|---|
 | W1 | Communicatie in gewone taal | Kern van de Collisa-pitch: vlotte, betrouwbare communicatie zonder jargon. Antwoord op aanvragen binnen 1 werkdag. | open |
 | W2 | "Als het technisch kan, bouw ik het" | Websites, webapps en API-koppelingen. Ook kleine projecten zijn welkom. | open |
-| W3 | Sentry in elk project | Elk project heeft automatische foutopvolging, ook in elk Care-pakket. Uitleggen wat dat voor een klant betekent. | open |
+| W3 | Sentry in elk project | Elk project heeft automatische foutopvolging, ook in elk Care-pakket. Uitleggen wat dat voor een klant betekent. | concept (week 48) |
 | W4 | Overname van een bestaande site | Overnamecheck vanaf €250 (webapps en koppelingen vanaf €500), verrekend als de klant binnen 30 dagen instapt in Care. | open |
 | W5 | Wat is een API-koppeling? | Uitleg in gewone taal, met BatSync als voorbeeld (systemen die automatisch met elkaar praten). | open |
 | W6 | Duidelijke afspraken | Offertes 30 dagen geldig, 3 maanden garantie na oplevering, 10 werkdagen om een oplevering na te kijken. | concept (week 47) |
@@ -81,7 +85,7 @@ kanttekeningen (kosten, privacy, waar AI fouten maakt).
 |---|---|---|---|
 | A1 | Hoe ik AI inzet in mijn eigen workflow | Lisa bouwde een eigen AI-skill die Nederlandstalige testdocumentatie voor de overdracht genereert, en werkt met een vaste AI-pipeline voor plannen, bouwen en testen. Ze volgt AI Hero (Matt Pocock), cohort 'Software Factories for Real Engineers' (nov 2026). Voordeel voor de klant: sneller en consequenter, zonder de controle uit handen te geven. | concept (week 47) |
 | A2 | AI + je bestaande systemen | Waar AI echt helpt: als het gekoppeld is aan wat je al gebruikt (webshop, agenda, boekhouding). Koppelingen bouwen is Lisa's sterkte (zie BatSync). Concept, geen klantcase. | open |
-| A3 | Repetitieve mails en aanvragen laten voorsorteren door AI | Concept voor kmo's: aanvragen samenvatten, labelen of een conceptantwoord klaarzetten, de mens beslist. Kanttekening: privacy en controle. | open |
+| A3 | Repetitieve mails en aanvragen laten voorsorteren door AI | Concept voor kmo's: aanvragen samenvatten, labelen of een conceptantwoord klaarzetten, de mens beslist. Kanttekening: privacy en controle. | concept (week 48) |
 | A4 | Een website laten maken door AI: waar je op moet letten | Invalshoek uit de Kia Ora-audit: een automatische check vond 0 problemen, handmatig testen vond er 8. Gegenereerde sites testen op toegankelijkheid, beveiliging en onderhoud. Geen algemene cijfers verzinnen. | open |
 | A5 | Wanneer een AI-chat op je site zinvol is (en wanneer niet) | Concept. Pas na C5 linken aan Kia Ora / MyTourist, en enkel met feiten uit die repo. | open |
 | A6 | Automatische herinneringen: kleine automatisering, groot effect | Brug naar C2 MediFootz TextMeet: geen AI, maar wel automatisering die vergeten afspraken liet verdwijnen. Toont dat de juiste automatisering belangrijker is dan het label 'AI'. | open |
