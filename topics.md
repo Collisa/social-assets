@@ -51,6 +51,7 @@ Regels voor de taak:
 | W4 | Overname van een bestaande site | Overnamecheck vanaf €250 (webapps en koppelingen vanaf €500), verrekend als de klant binnen 30 dagen instapt in Care. | open |
 | W5 | Wat is een API-koppeling? | Uitleg in gewone taal, met BatSync als voorbeeld (systemen die automatisch met elkaar praten). | open |
 | W6 | Duidelijke afspraken | Offertes 30 dagen geldig, 3 maanden garantie na oplevering, 10 werkdagen om een oplevering na te kijken. | concept (week 47) |
+| W7 | Geen 'code slop' in mijn projecten | Lisa pakt 'code slop' aan: slordige, overbodige of te ingewikkelde code (vaak door AI gegenereerd). Ze is daar sinds nov 2026 mee bezig en past het toe in haar projecten. Invalshoek voor de klant: code die leesbaar, onderhoudbaar en overdraagbaar blijft. Geen cijfers of voorbeelden verzinnen; concrete voorbeelden bij Lisa of in haar repos halen. | open |
 
 ### Toegankelijkheid en achter de schermen
 | # | Onderwerp | Wat vaststaat | Status |
@@ -90,3 +91,5 @@ kanttekeningen (kosten, privacy, waar AI fouten maakt).
 | A4 | Een website laten maken door AI: waar je op moet letten | Invalshoek uit de Kia Ora-audit: een automatische check vond 0 problemen, handmatig testen vond er 8. Gegenereerde sites testen op toegankelijkheid, beveiliging en onderhoud. Geen algemene cijfers verzinnen. | open |
 | A5 | Wanneer een AI-chat op je site zinvol is (en wanneer niet) | Concept. Pas na C5 linken aan Kia Ora / MyTourist, en enkel met feiten uit die repo. | open |
 | A6 | Automatische herinneringen: kleine automatisering, groot effect | Brug naar C2 MediFootz TextMeet: geen AI, maar wel automatisering die vergeten afspraken liet verdwijnen. Toont dat de juiste automatisering belangrijker is dan het label 'AI'. | open |
+| A7 | Eén 'home repo' die AI aanstuurt voor al mijn projecten | Lisa bouwt een centrale repo met de afspraken en instructies waarmee ze AI aanstuurt in al haar repos (nov 2026, in uitvoering, al toegepast in haar projecten). Voordeel: elke project volgt dezelfde regels, consequent werk. Uitleggen in gewone taal, niet te technisch. | open |
+| A8 | Skills tegen slop en overbodige comments | Lisa schrijft eigen AI-skills die 'slop' en een overkill aan comments in code tegengaan (nov 2026, in uitvoering, al toegepast in haar projecten). Past bij A1, A7 en W7: niet in dezelfde week posten als W7. Invalshoek: AI mag meebouwen, maar het resultaat moet net en begrijpelijk zijn. | open |
