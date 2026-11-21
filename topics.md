@@ -6,10 +6,11 @@ en zet de status daarna op `concept` met de datum. Na publicatie: `gepost`.
 Regels voor de taak:
 - Alleen feiten die hieronder staan of die Lisa in haar repos/notities zelf beschreven heeft. Niets verzinnen
   (geen cijfers, klantcitaten of features die niet bevestigd zijn).
-- Klantcases mogen gebruikt worden. Toch altijd een `CHECK:`-regel in de Buffer-notitie zetten als een klant bij
-  naam genoemd wordt, zodat Lisa het nakijkt voor ze het inplant.
-- Per week: 3 LinkedIn, 3 Instagram (zelfde onderwerpen, eigen tekst en 4:5-beeld), 1 TikTok-script als idee.
-- Mix per week: max. 1 klantcase, 1 werkwijze of tip, 1 vrij onderwerp (toegankelijkheid, achter de schermen, ...).
+- Klantcases mogen gebruikt worden. Wordt een klant bij naam genoemd, dan meldt de taak dat in het rapport onder
+  'Te checken' (geen notitie in de Buffer-tekst), zodat Lisa het nakijkt voor ze het inplant.
+- Per week (vanaf week 49): 5 onderwerpen = 5 LinkedIn, 5 Instagram (zelfde onderwerpen, eigen tekst en 4:5-beeld)
+  en 5 Instagram-stories. Geen TikTok meer.
+- Mix per week: max. 1 klantcase, 2 werkwijze of tip, 2 vrij onderwerp (toegankelijkheid of AI voor kmo's).
 
 ## Gepost / ingepland
 
